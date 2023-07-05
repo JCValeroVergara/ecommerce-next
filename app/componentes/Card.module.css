@@ -1,0 +1,52 @@
+.producto{
+  background-color: #fff;
+  height: 380px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 20px 10px;
+
+  
+  
+}
+.imagen{
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre{
+  font-size:16px;
+  font-weight: 400;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.precio{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.button{
+  padding-top: 0%;
+  border-radius: 5px;
+  border-style: outset  3px;
+  background-color: #0077b6;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}

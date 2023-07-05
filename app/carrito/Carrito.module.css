@@ -1,0 +1,25 @@
+.miCarrito{
+  display: flex;
+  align-items: center;
+  border: 1px dotted black ;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.imagen{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 10px;
+  border: 1px dotted black ;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: x-large;
+  font-weight: 500;
+  
+}
